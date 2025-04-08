@@ -12,7 +12,7 @@
     }
 
     body {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: Helvetica, sans-serif;
       background-color: #f5f5f5ff;
       color: black;
       display: flex;
@@ -29,23 +29,23 @@
 
     .greeting {
       font-size: 35pt;
-      margin-bottom: 60px; /* Increased spacing from greeting to buttons */
+      margin-bottom: 60px;
     }
 
     .buttons {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      gap: 40px; /* Increased gap between buttons */
+      gap: 30px;
     }
 
     .cta {
-      font-size: 2.4rem; /* Double original size */
+      font-size: 2.4rem;
       color: #f5f5f5ff;
       text-decoration: none;
       background-color: #666666ff;
-      padding: 24px 60px; /* Doubled padding */
-      border-radius: 40px;
+      padding: 16px 60px; /* Reduced vertical padding, same horizontal */
+      border-radius: 35px;
       transition: transform 0.2s ease-in-out;
       display: inline-block;
     }
@@ -53,15 +53,22 @@
     .cta:hover {
       transform: scale(1.1);
     }
+
+    .note {
+      font-size: 20pt;
+      margin-top: 60px; /* Same spacing as from greeting to buttons */
+      color: black;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <p class="greeting">Hi, I'm Mariana Silva!<br>Get to know me :)</p>
+    <p class="greeting">Hi! I'm Mariana Silva!<br>tGet to know my work :)</p>
     <div class="buttons">
       <a href="MarianaSilva_Portfolio_2025.pdf" class="cta" target="_blank">Portfolio</a>
       <a href="MarianaSilva_CV_2025.pdf" class="cta" target="_blank">CV</a>
     </div>
+    <p class="note">Click to view or download my work and experience<br>Mariana Silva<br>Industrial Designer></p>
   </div>
 </body>
 </html>
